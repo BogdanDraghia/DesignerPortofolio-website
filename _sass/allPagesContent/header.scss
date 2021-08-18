@@ -1,0 +1,180 @@
+.containerNav{
+  width: 100%;
+
+}
+.navbarTop {
+  margin:0 auto;
+  max-width: calc(100% - 5em);
+  width: 100em;
+
+
+}
+
+.brand {
+  display: block;
+
+  margin-left: 64px;
+}
+.brand img{width: 100px;
+  vertical-align: middle;
+
+}
+
+.Navbar {
+  align-items: center;
+  margin: 0 auto;
+  max-width: calc(100% - 5em);
+  width: 90em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color:white ;
+  display: flex;
+  font-family: sans-serif;
+}
+.brand a {
+  color: #5E6472;
+  font-family: Gordita Medium;
+  font-size: 18px;
+  text-decoration: none;
+}
+.NavbarMenu a {
+  font-family: Inter;
+  font-style: normal;
+  padding: 10px 10px;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: Gordita Medium;
+  color: #5E6472;
+
+  margin: 10px;
+  width: 100%;
+}
+.NavbarMenu a:hover{
+  background-color:#f5f5f5;
+border-radius: 4px;
+}
+.Contact a:hover{
+  background-color:transparent;
+border-radius: 4px;
+}
+.Contact:hover{
+  background-color:#5E6472;
+  color:white;
+}
+.Contact>a:hover{
+  color: white;
+}
+.Navbar__Items {
+  display: flex;
+  align-items: center;
+}
+
+.Navbar__Items--right {
+  margin-left: auto;
+}
+.Navbar__Link {
+  padding:10px;
+  display: block;
+
+}
+.Navbar__Link a {
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 18px;
+}
+.show{
+  border-bottom: none;
+}
+.hide{
+  border-bottom: 2px solid #646f79;
+}
+.Navbar__Link-toggle {
+  display: none;
+}
+//test
+.wrapper{
+  overflow: visible;
+}
+.floatparrent{
+
+  position: relative;
+}
+.floattest{
+  
+  position: absolute;
+
+}
+.Navbar__Items {
+  height: 100%;
+  overflow: hidden;
+}
+.menuDraw {
+  width: 16px;
+  margin: 2px;
+  border-radius: 3px;
+  background-color: #646f79;
+  height: 4px;
+}
+.current{
+  background-color: red;
+}
+@media only screen and (max-width: 868px) {
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+  }
+  .sandwich {
+    padding-right: 20px;
+  }
+  .Navbar__Items {
+    display: none;
+  }
+  .brand {
+    margin: 0;
+  }
+  .Navbar__Items--right {
+    margin-left: 0;
+  }
+  .Navbar__Items {
+    width: 100%;
+  }
+
+  .Navbar__ToggleShow {
+    display: flex;
+  }
+  .Navbar__Link-toggle {
+    right:20px;
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+    
+  }
+  .brand img{
+    margin-left: 0px;
+  }
+  .Navbar__Link:hover{
+    background-color:#f5f5f5;
+    border-radius: 5px;
+
+  }
+  #Davai{
+    border-bottom:none;
+  }
+}
+.a3{
+  font-family: Inter;
+  font-size: 20px;
+}
+.Contact{
+  background-color:  #f2cc8f;
+  border-radius: 3px;
+  min-width: 100px;
+  display: inline-block;
+  padding:10px 5px 10px 5px;
+  margin: 0 auto;
+  text-align:  center;
+}
+.Contact a{
+  color:#5e6472;
+}

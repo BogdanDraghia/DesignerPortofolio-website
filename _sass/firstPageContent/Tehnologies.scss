@@ -1,0 +1,49 @@
+.THGroup{
+    margin: 0 auto;
+    background-color: red;
+	max-width: -webkit-calc(100% - 5em);
+	max-width: calc(100% - 5em);
+	width: 100em;
+	margin-top: 40px;
+}
+.THContainer a3{
+    text-align: center;
+    display: block;
+    font-size: 40px;
+}
+
+.THContainer a4{
+    text-align: center;
+    display: block;
+    font-size: 25px;
+}
+
+
+//SkillsColumns 
+
+.SkillsColumns{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+	align-content: space-around;
+}
+.FrontEndColumn{
+    display: flex;
+    flex-direction: row;
+    background-color: rosybrown;
+    margin: 20px;
+    padding: 20px ;
+}
+.skillIcon{
+
+    background-color: blue;
+    margin: 40px;
+}
+.skillIcon img{
+    width: 100px;
+    height: 100px;
+
+}

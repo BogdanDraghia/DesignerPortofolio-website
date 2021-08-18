@@ -1,0 +1,228 @@
+body{
+
+}
+
+.ContainerLS{
+    
+width: 100%;
+padding-top: 100px;
+background-color:white;
+}
+.SubContainer{
+    margin:0 auto;
+    max-width: calc(100% - 5em);
+    width: 100em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+//LEFT
+.initials{
+    align-self: center;
+    padding-bottom: 100px;
+}
+.initials img{
+    
+    padding-bottom: 100px;
+    max-width: 400px;
+}
+.ShowR{
+  display: flex;
+  height: 700px;
+  width: 900px;
+  align-items: center;
+  place-content: center flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.phot{
+    margin: 10px;
+
+	-webkit-box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+	  0 15px 40px rgba(166, 173, 201, 0.2);
+	box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+	  0 15px 40px rgba(166, 173, 201, 0.2);
+}
+.phot>img{
+    object-fit:fill;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+}
+
+.photo1{
+
+    flex-direction: row;
+    order: 0;
+    max-width:300px;
+  max-height:300px;
+  display: block;
+  width: auto;
+  height: auto;
+    justify-content: flex-end;
+    align-self: flex-end;
+    background-color: #FF7F80;
+
+}
+.photo2{
+
+    max-width:410px;
+  max-height:175px;
+  display: block;
+  width: auto;
+  height: auto;
+    order: 0;
+    flex-wrap: wrap;
+    place-content: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-items: center;
+
+}
+.photo3{
+    width: 260px;
+    height: 179px;
+    order: 0;
+    flex-wrap: wrap;
+    place-content: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-items: center;
+
+}
+
+.photo4{
+
+    height: 296px;
+    width: 230px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    order: 4;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+}
+
+//About section
+.AboutMe{
+    
+    width: 100%;
+padding-top: 150px;
+padding-bottom: 150px;
+background-color: #edf1f2;
+}
+.AboutMeSub{
+    
+    margin:0 auto;
+    max-width: calc(100% - 5em);
+    width: 100em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.photoProfile{
+
+
+    background-color:grey;
+}
+.About_Section{
+    
+    margin-left: 100px;
+    width: 600px;
+}
+.About_Section a2{
+    font-family: Inter;
+    font-style: normal;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+}
+.About_Section>p{
+    background-color: white;
+    padding:30px;
+    min-height: 160px;
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+    font-family: Inter;
+    font-weight: 250;
+}
+.photoProfile>img{
+    -webkit-box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+    border-radius: 10px;
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+
+//Icons Info
+.Info{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:  white;  
+}
+.InfoSub{
+    margin:0 auto;
+    max-width: calc(100% - 5em);
+    width: 100em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Icons{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+
+
+
+    margin: 70px;
+    background-color: #f2cc8f;
+    border-radius: 10px ;
+}
+.Icons>a3{
+    
+    text-align: center;
+    display: block;
+    flex:0;
+
+    padding-top:20px;
+    color:white;
+    font-family: Inter;
+    font-style: normal;
+}
+.Icons>img{
+    height: 79px;
+    width: 100px;
+    object-fit: contain;
+}
+.fit{
+
+}
+
+//HIRE ME
+
+.hire{
+    width: 100%;
+padding-top: 150px;
+padding-bottom: 150px;
+background-color: #edf1f2;
+}
+
+.hiresub{
+    margin:0 auto;
+    max-width: calc(100% - 5em);
+    width: 100em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
